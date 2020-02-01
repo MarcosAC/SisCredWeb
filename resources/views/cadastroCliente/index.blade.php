@@ -3,10 +3,10 @@
 @section('titulo', 'Cadastro Cliente')
 
 @section('conteudo')  
-  <h3>View de Cadastro Clientes//Deu certo!!!</h3>
+  <center><h3>Sistema de Crédito Pessoal</h3></center>
 
-  @foreach($clientes as $cliente)
+  <!-- @foreach($clientes as $cliente)
     <p>{{ $cliente['nome'] }}</p>
     <p>{{ $cliente['telefone'] }}</p>
-  @endforeach
+  @endforeach -->
 @endsection

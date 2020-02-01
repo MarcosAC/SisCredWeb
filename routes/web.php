@@ -23,14 +23,16 @@ Route::get('login', function(){
     return "Login";
 });
 
-Route::get('cadastro_cliente', ['uses'=>'CadastroClienteController@index']);
-Route::post('cadastro_cliente', ['uses'=>'CadastroClienteController@criar']);
-Route::put('cadastro_cliente', ['uses'=>'CadastroClienteController@editar']);
+Route::get('pagina_principal', ['as' => 'paginaPrincipal', 'uses'=>'PaginaPrincipalController@index']);
 
-Route::get('adimplentes/{id_cliente?}', function($id_cliente = null){
-    return "Adimplentes";
-});
+// Route::get('/cadastro_cliente', ['as'=>'cadastroCliente', 'uses'=>'CadastroClienteController@index']);
+// Route::post('cadastro_cliente', ['uses'=>'CadastroClienteController@criar']);
+// Route::put('cadastro_cliente', ['uses'=>'CadastroClienteController@editar']);
 
-Route::get('inadimplentes/{id_cliente?}', function($id_cliente = null){
-    return "Inadimplentes";
-});
+// Route::get('adimplentes/{id_cliente?}', function($id_cliente = null){
+//     return "Adimplentes";
+// });
+
+// Route::get('inadimplentes/{id_cliente?}', function($id_cliente = null){
+//     return "Inadimplentes";
+// });
