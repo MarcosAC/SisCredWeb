@@ -19,13 +19,13 @@
         <a href="#!" class="brand-logo">SisCred - Versão Alpha 1</a>
         <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Login</a></li>
+          <li><a href="login">Login</a></li>
           <!-- <li><a href="badges.html">Components</a></li>
           <li><a href="collapsible.html">Javascript</a></li>
           <li><a href="mobile.html">Mobile</a></li> -->
         </ul>
         <ul class="side-nav" id="mobile">
-          <li><a href="sass.html">Login</a></li>
+          <li><a href="login">Login</a></li>
           <!-- <li><a href="badges.html">Components</a></li>
           <li><a href="collapsible.html">Javascript</a></li>
           <li><a href="mobile.html">Mobile</a></li> -->
