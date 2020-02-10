@@ -25,24 +25,36 @@
       <div class="row>">
         <center>
           <div class="container">        
-            <div class="row">        
-              <form class="col s12">          
-                <div class="row">            
-                  <div class="input-field col s12">
-                    <input  id="login" type="text" class="validate">
-                    <label for="login">Login</label>
+            <div class="row">  
+              <form class="col s12">
+                <div class="col s2"></div>
+                  <div class=" col s8">
+                    <div class="card-panel">      
+                        <div class="row">
+                          <!-- <div class="col s2"></div>  -->
+                            <div class="input-field col s12">                    
+                              <input  id="login" type="text" class="validate">
+                              <label for="login">Login</label>
+                            </div> 
+                          <!-- <div class="col s2"></div>      -->
+                        </div>
+
+                      <div class="row">
+                        <!-- <div class="col s2"></div> -->
+                          <div class="input-field col s12">
+                            <input id="senha" type="password" class="validate">
+                            <label class="active" for="senha">Senha</label>
+                          </div>
+                        <!-- <div class="col s2"></div> -->
+                      </div>
+                        <a class="waves-effect waves-light btn red">Entrar</a>
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="senha" type="password" class="validate">
-                    <label class="active" for="senha">Senha</label>
-                  </div>
-                </div>
-              </form>
+                <div class="col s2"></div>
+              </form> 
+                           
             </div>
-          </div>
-          <a class="waves-effect waves-light btn">Entrar</a>
+          </div>          
         </center>
       </div>    
     </div>
