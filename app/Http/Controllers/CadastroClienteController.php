@@ -6,13 +6,8 @@ use Illuminate\Http\Request;
 
 class CadastroClienteController extends Controller
 {
-    public function index(){
-        $clientes = [
-            ["nome"=>"Marcos Aurelio", "telefone"=>"9999-9999"],
-            ["nome"=>"Patricia", "telefone"=>"9999-8888"],
-            ["nome"=>"Bernardo", "telefone"=>"9999-7777"],
-        ];
-        return view('cadastroCliente.index',compact('clientes'));
+    public function index(){        
+        return view('cadastroCliente');
     }
 
     public function criar(Request $request){

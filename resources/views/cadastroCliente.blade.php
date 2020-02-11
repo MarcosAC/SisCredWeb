@@ -2,8 +2,8 @@
 
 @section('titulo', 'Cadastro Cliente')
 
-@section('conteudo')  
-  <center><h3>Sistema de Crédito Pessoal</h3></center>
+@section('conteudoCadastroCliente')  
+  <center><h3>Cadastro Cliente</h3></center>
 
  
 @endsection

@@ -1,4 +1,3 @@
 @include('layout.includes.topo')
-@yield('conteudo')
+@yield('conteudoCadastroCliente')
 @include('layout.includes.footer')
-

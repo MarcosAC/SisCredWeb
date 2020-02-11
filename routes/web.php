@@ -25,6 +25,7 @@ Route::get('login', function(){
 
 Route::get('pagina_principal', ['as'=>'paginaPrincipal', 'uses'=>'PaginaPrincipalController@index']);
 Route::get('login', ['as'=>'login','uses'=>'LoginController@index']);
+Route::get('cadastroCliente', ['as'=>'cadastroCliente','uses'=>'CadastroClienteController@index']);
 
 // Route::get('/cadastro_cliente', ['as'=>'cadastroCliente', 'uses'=>'CadastroClienteController@index']);
 // Route::post('cadastro_cliente', ['uses'=>'CadastroClienteController@criar']);
